@@ -50,8 +50,8 @@ ComandosExtras(){
 	mkdir /mnt/hostrun 
 	mount --bind /run /mnt/hostrun
 	
-	wget raw.githubusercontent.com/RicardoKeso/cripto/p02.sh -O /mnt/root/p02.sh
-	wget raw.githubusercontent.com/RicardoKeso/cripto/p03.sh -O /mnt/root/p03.sh
+	wget raw.githubusercontent.com/RicardoKeso/cripto/master/p02.sh -O /mnt/root/p02.sh
+	wget raw.githubusercontent.com/RicardoKeso/cripto/master/p03.sh -O /mnt/root/p03.sh
 
 	echo "" >> /mnt/root/.bashrc
 	cp /mnt/root/.bashrc /mnt/root/.bashrc_orig
