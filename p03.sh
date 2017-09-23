@@ -93,6 +93,7 @@ sincronizarAtualizar(){
 }
 
 finalizar(){
+  rm /root/.bashrc
   exit
   umount -R /run/lvm
   umount -R /mnt/hostrun
