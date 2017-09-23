@@ -55,8 +55,8 @@ ComandosExtras(){
 
 	echo "" >> /mnt/root/.bashrc
 	cp /mnt/root/.bashrc /mnt/root/.bashrc_orig
-	echo "/root/p02.sh" > /mnt/root/.bashrc
-	echo "/root/p03.sh" > /mnt/root/.bashrc
+	echo "/root/p02.sh" >> /mnt/root/.bashrc
+	echo "/root/p03.sh" >> /mnt/root/.bashrc
 	chmod +x /mnt/root/p02.sh
 	chmod +x /mnt/root/p03.sh
 	chmod +x /mnt/root/.bashrc
