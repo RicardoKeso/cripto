@@ -18,6 +18,7 @@ ambienteGrafico(){
   pacman -S docky --noconfirm
   pacman -S lightdm lightdm-gtk-greeter light-locker --noconfirm
   pacman -S networkmanager network-manager-applet --noconfirm
+  pacman -S xterm --noconfirm
 }
 
 yaourt(){
@@ -45,6 +46,7 @@ essenciais(){
 
   pacman -S transmission --noconfirm
   pacman -S htop --noconfirm
+  pacman -S acpi --noconfirm
 }
 
 essenciaisGUI(){
